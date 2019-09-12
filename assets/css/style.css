@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css?family=Barriecito|Thasadith&display=swap');
+
+body {
+	background-image: url("../images/message.jpg");
+	background-size: 100%;
+    background-repeat: no-repeat;
+	font-size: 20px;
+    font-family:'Thasadith', sans-serif;
+}
+
+
+h1{ 
+	font-size: 50px;
+	font-weight: bold;
+	font-family: 'Barriecito', cursive;
+	color: green; 
+	text-shadow: 12px;
+	text-emphasis-color: violet; 
+}
+
+
+
+img { 
+	font-size: 10px;
+	font-family: 'Barriecito', cursive;
+	color: green; 
+	height: 50px;
+    width: 50px;
+}
+.btn {
+    margin: 3px;
+    background:rgb(248, 62, 223);
+    border-color: rgb(144, 245, 76);
+}
+
+.container {
+	opacity: 0.8;
+	padding: 20px;
+	font-size: 20px;
+    font-family:'Thasadith', sans-serif;}
+
+div#footer {
+	clear: both;
+	margin-top: 60px;
+	position: center;
+	bottom: 0;
+	left: 0;
+	text-align: center;
+	font-size: 10px;
+    font-family:'Thasadith', sans-serif;
+}
+
+.gifDiv{
+	float: right;
+	margin: 10px;
+	background-color: aqua;
+	margin: 3px;
+	font-size: 20px;
+    font-family:'Thasadith', sans-serif;
+}
