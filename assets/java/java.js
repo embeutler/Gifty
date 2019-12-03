@@ -1,4 +1,4 @@
-$( document ).ready(function() {
+$(document).ready(function() {
     var actions = ["Unicorn", "Fairy", "Princess", "Magic", "Fairy Tale ", "Dreams", "Rainbows", "Glitter"];
     function displayGifButtons(){
         $("#gifButtonsView").empty(); 
