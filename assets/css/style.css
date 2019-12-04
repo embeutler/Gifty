@@ -8,53 +8,81 @@ body {
     font-family:'Thasadith', sans-serif;
 }
 
-
-h1{ 
-	font-size: 50px;
-	font-weight: bold;
-	font-family: 'Barriecito', cursive;
-	color: green; 
-	text-shadow: 12px;
-	text-emphasis-color: violet; 
-}
-
-
-
-img { 
-	font-size: 10px;
-	font-family: 'Barriecito', cursive;
-	color: green; 
-	height: 50px;
-    width: 50px;
-}
-.btn {
-    margin: 3px;
-    background:rgb(248, 62, 223);
-    border-color: rgb(144, 245, 76);
-}
-
 .container {
 	opacity: 0.8;
 	padding: 20px;
 	font-size: 20px;
     font-family:'Thasadith', sans-serif;}
 
-div#footer {
-	clear: both;
-	margin-top: 60px;
-	position: center;
-	bottom: 0;
-	left: 0;
+header{
 	text-align: center;
-	font-size: 10px;
-    font-family:'Thasadith', sans-serif;
+	font-size: 50px;
+	font-weight: bold;
+	font-family: 'Barriecito', cursive;
+	color: rgb(53, 5, 165); 
+	text-shadow: 12px 10px 12px;
+	text-emphasis-color: rgb(126, 7, 173); 
+padding-top: 20px;
 }
+
+
+
+img { 
+	font-size: 10px;
+	color: rgb(75, 40, 158); 
+	height:135px;
+    width: 160px;
+}
+
+div#gifButtonsView
+ .btn
+	{
+	margin: 3px;
+    background:rgb(248, 62, 223);
+	border-color: rgb(144, 245, 76);
+	border-width: 3px;
+	font-family: 'Segoe UI', Tahoma;
+	font-weight: bolder;
+
+	}	
 
 .gifDiv{
 	float: right;
 	margin: 10px;
-	background-color: aqua;
+	background-color: rgba(166, 255, 0, 0.301);
 	margin: 3px;
 	font-size: 20px;
     font-family:'Thasadith', sans-serif;
+}
+footer {
+	clear: both;
+	margin-top: 90px;
+	position: center;
+	bottom: 0;
+	left: 0;
+	text-align: center;
+	font-size: 12px;
+    font-family:'Thasadith', sans-serif;
+	color: blueviolet;
+	font-weight: bolder;
+}
+
+form
+.form-group
+{	font-family: 'Barriecito', cursive;
+	font-weight: bolder;
+	font-size:16pt;
+	color: fuchsia; 
+
+}
+form
+.btn {
+    margin: 3px;
+    background:rgb(248, 62, 223);
+	border-color: rgb(144, 245, 76);
+	color: chartreuse;
+	border-width: 3px;
+	font-family: 'Segoe UI', Tahoma;
+	font-weight: bolder;
+	font-size: 10pt;
 }
