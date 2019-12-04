@@ -3,7 +3,7 @@
 body {
 	background-image: url("../images/message.jpg");
 	background-size: 100%;
-    background-repeat: no-repeat;
+    background-repeat: repeat-y;
 	font-size: 20px;
     font-family:'Thasadith', sans-serif;
 }
@@ -14,26 +14,32 @@ body {
 	font-size: 20px;
     font-family:'Thasadith', sans-serif;}
 
-header{
+header
+h1{
 	text-align: center;
 	font-size: 50px;
 	font-weight: bold;
 	font-family: 'Barriecito', cursive;
 	color: rgb(53, 5, 165); 
 	text-shadow: 12px 10px 12px;
-	text-emphasis-color: rgb(126, 7, 173); 
-padding-top: 20px;
+	text-emphasis-color: rgb(72, 255, 0); 
+	padding-top: 20px;
 }
-
-
-
-img { 
-	font-size: 10px;
-	color: rgb(75, 40, 158); 
-	height:135px;
-    width: 160px;
+header
+h5{
+	margin-left: 14%;
+	text-align: left;
+	font-size: 15px;
+	font-family: 'Thasadith', sans-serif;
+	color: rgb(53, 5, 165); 
+	text-shadow: 12px 10px 12px;
+	text-emphasis-color: rgb(72, 255, 0); 
+	padding-top: 5px;
 }
-
+div#gifButtonsView
+{margin-left:14%;
+align-self: auto;
+padding-top:0%;}	
 div#gifButtonsView
  .btn
 	{
@@ -43,8 +49,28 @@ div#gifButtonsView
 	border-width: 3px;
 	font-family: 'Segoe UI', Tahoma;
 	font-weight: bolder;
-
+	color: white;
 	}	
+
+form
+.form-group
+{	font-family: 'Barriecito', cursive;
+	font-weight: bolder;
+	font-size:16pt;
+	color: rgb(63, 8, 114); 
+
+}
+form
+.btn {
+    margin: 3px;
+    background:rgb(248, 62, 223);
+	border-color: rgb(144, 245, 76);
+	color: white;
+	border-width: 3px;
+	font-family: 'Segoe UI', Tahoma;
+	font-weight: bolder;
+	font-size: 10pt;
+}
 
 .gifDiv{
 	float: right;
@@ -54,6 +80,14 @@ div#gifButtonsView
 	font-size: 20px;
     font-family:'Thasadith', sans-serif;
 }
+
+img { 
+	font-size: 10px;
+	color: rgb(75, 40, 158); 
+	height:135px;
+    width: 160px;
+}
+
 footer {
 	clear: both;
 	margin-top: 90px;
@@ -67,22 +101,3 @@ footer {
 	font-weight: bolder;
 }
 
-form
-.form-group
-{	font-family: 'Barriecito', cursive;
-	font-weight: bolder;
-	font-size:16pt;
-	color: fuchsia; 
-
-}
-form
-.btn {
-    margin: 3px;
-    background:rgb(248, 62, 223);
-	border-color: rgb(144, 245, 76);
-	color: chartreuse;
-	border-width: 3px;
-	font-family: 'Segoe UI', Tahoma;
-	font-weight: bolder;
-	font-size: 10pt;
-}
