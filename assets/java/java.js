@@ -32,7 +32,7 @@ $(document).ready(function() {
     }
     function displayGifs(){
         var action = $(this).attr("data-name");
-        var queryURL = "https://api.giphy.com/v1/gifs/search?q=" + action + "&api_key=dc6zaTOxFJmzC&limit=10";
+        var queryURL = "https://api.giphy.com/v1/gifs/search?q=" + action + "&api_key=yLu0AS1u5GHWX4yljbOWT7GDIru89Pv9&limit=10";
         console.log(queryURL);
                 $.ajax({
             url: queryURL,
