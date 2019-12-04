@@ -72,8 +72,8 @@ form
 	font-size: 10pt;
 }
 
-.gifviews{
-	float: right;
+div#gifviews{
+	float:center;
 	margin: 10px;
 	background-color: rgba(166, 255, 0, 0.301);
 	margin: 3px;
