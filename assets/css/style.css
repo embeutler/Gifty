@@ -80,7 +80,7 @@ form
     font-family:'Thasadith', sans-serif;
 }
 
-img { 
+img { align-content: flex-start;
 	font-size: 10px;
 	color: rgb(75, 40, 158); 
 	height:135px;
