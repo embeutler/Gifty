@@ -1,4 +1,5 @@
 # Magical Land search
+![Screenshot](screen1.jpg)
 ## Search for magical land items such as fairies 
   - suggested buttons with pre programed items
   - User search feild allows you enter items to create a button 
