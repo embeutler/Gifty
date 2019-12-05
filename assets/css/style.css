@@ -72,7 +72,7 @@ form
 	font-size: 10pt;
 }
 
-.gifdiv{float:right;
+.gifdiv{display: inline;
 	margin: 10px;
 	background-color: rgba(166, 255, 0, 0.301);
 	margin: 3px;
@@ -80,7 +80,7 @@ form
     font-family:'Thasadith', sans-serif;
 }
 
-img { align-content: flex-start;
+img { 
 	font-size: 10px;
 	color: rgb(75, 40, 158); 
 	height:135px;
