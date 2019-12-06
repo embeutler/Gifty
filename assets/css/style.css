@@ -9,10 +9,11 @@ body {
 }
 
 .container {
+	flex: wrap;
 	opacity: 0.8;
 	padding: 20px;
 	font-size: 20px;
-    font-family:'Thasadith', sans-serif;}
+    	font-family:'Thasadith', sans-serif;}
 
 header
 h1{
@@ -72,7 +73,7 @@ form
 	font-size: 10pt;
 }
 
-.gifsView{flex-wrap: wrap;
+div#gifsView{flex-wrap: wrap;
 	margin: 10px;
 	background-color: rgba(166, 255, 0, 0.301);
 	margin: 3px;
@@ -80,11 +81,10 @@ form
     font-family:'Thasadith', sans-serif;
 }
 
-img { flex: content;
-	font-size: 10px;
+img {	font-size: 10px;
 	color: rgb(75, 40, 158); 
 	height:135px;
-    width: 160px;
+    	mwidth: 160px;
 }
 
 footer {
