@@ -81,7 +81,7 @@ div#gifsView{
     font-family:'Thasadith', sans-serif;
 }
 
-img {	flex-wrap: inherit;
+img {	flex-wrap: wrap;
 	font-size: 10px;
 	color: rgb(75, 40, 158); 
 	height:135px;
