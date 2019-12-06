@@ -56,7 +56,7 @@ div#gifButtonsView
 form
 .form-group
 {	margin: 14%;
-	align-items: inline;
+align-self: auto;
 	font-family: 'Barriecito', cursive;
 	font-weight: bolder;
 	font-size:16pt;
