@@ -10,8 +10,8 @@ body {
 
 .container {
 	margin-left:14%;
-	display:flex;
-	flex: wrap;
+	display:flex;  
+	align-items:flex-start;
 	opacity: 0.8;
 	padding: 20px;
 	font-size: 20px;
@@ -77,14 +77,14 @@ form
 
 div#gifsView{
 	margin-left:14%;
+	display:flex;    
+  	align-items:flex-start;
 	background-color: rgba(166, 255, 0, 0.301);
 	font-size: 20px;
     	font-family:'Thasadith', sans-serif;
 }
 
-img {	display: wrap;
-	flex-wrap: wrap;
-	font-size: 10px;
+img {	font-size: 10px;
 	color: rgb(75, 40, 158); 
 	height:135px;
     	mwidth: 160px;
