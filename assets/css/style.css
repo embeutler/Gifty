@@ -9,6 +9,7 @@ body {
 }
 
 .container {
+	display:flex;
 	flex: wrap;
 	opacity: 0.8;
 	padding: 20px;
@@ -81,7 +82,8 @@ div#gifsView{
     font-family:'Thasadith', sans-serif;
 }
 
-img {	flex-wrap: wrap;
+img {	display: wrap;
+	flex-wrap: wrap;
 	font-size: 10px;
 	color: rgb(75, 40, 158); 
 	height:135px;
