@@ -56,7 +56,8 @@ div#gifButtonsView
 form
 .form-group
 {	margin: 14%;
-align-self: auto;
+display: flex;
+	flex-flow:row wrap;
 	font-family: 'Barriecito', cursive;
 	font-weight: bolder;
 	font-size:16pt;
@@ -65,7 +66,6 @@ align-self: auto;
 }
 form
 .btn {
-   
 	margin-left: 14%;
     background:rgb(248, 62, 223);
 	border-color: rgb(144, 245, 76);
