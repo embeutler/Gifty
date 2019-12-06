@@ -57,7 +57,10 @@ div#gifButtonsView
 
 form
 .form-group
-{	font-family: 'Barriecito', cursive;
+{	margin: 14%;
+	display:flex;  
+	align-items:flex-start;
+	font-family: 'Barriecito', cursive;
 	font-weight: bolder;
 	font-size:16pt;
 	color: rgb(63, 8, 114); 
@@ -77,8 +80,8 @@ form
 
 div#gifsView{
 	margin-left:14%;
-	display:flex;    
-  	align-items:flex-start;
+	  display: flex;
+	  flex-wrap: wrap;
 	background-color: rgba(166, 255, 0, 0.301);
 	font-size: 20px;
     	font-family:'Thasadith', sans-serif;
