@@ -9,6 +9,7 @@ body {
 }
 
 .container {
+	margin-left:14%;
 	display:flex;
 	flex: wrap;
 	opacity: 0.8;
