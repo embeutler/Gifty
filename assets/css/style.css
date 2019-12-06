@@ -75,11 +75,10 @@ form
 }
 
 div#gifsView{
-	margin: 10px;
+	margin-left:14%;
 	background-color: rgba(166, 255, 0, 0.301);
-	margin: 3px;
 	font-size: 20px;
-    font-family:'Thasadith', sans-serif;
+    	font-family:'Thasadith', sans-serif;
 }
 
 img {	display: wrap;
