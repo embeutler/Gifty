@@ -68,7 +68,8 @@ form
 }
 form
 .btn {
-    margin: 3px;
+   
+	margin-left: 14%;
     background:rgb(248, 62, 223);
 	border-color: rgb(144, 245, 76);
 	color: white;
@@ -79,9 +80,11 @@ form
 }
 
 div#gifsView{
+	height: 320px;
+	width: 950px; 
 	margin-left:14%;
-	  display: flex;
-	  flex-wrap: wrap;
+	display: flex;
+	flex-flow: row wrap;
 	background-color: rgba(166, 255, 0, 0.301);
 	font-size: 20px;
     	font-family:'Thasadith', sans-serif;
