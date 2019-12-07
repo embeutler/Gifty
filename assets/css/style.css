@@ -65,8 +65,8 @@ form
 
 }
 form
-.btn {
-	
+.btn {	display: flex;
+	flex-flow: row;
 	margin-left: 14%;
 	background:rgb(248, 62, 223);
 	border-color: rgb(144, 245, 76);
