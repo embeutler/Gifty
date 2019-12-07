@@ -80,9 +80,11 @@ form
 background-color: rgba(166, 255, 0, 0.301);}
 	
 div#gifsView{
-	height: 520px;
-	width: 950px; 
-	margin-left:14%;
+	  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-start;
+	height: 600; 
+	margin-left:18%;
 	font-size: 20px;
     	font-family:'Thasadith', sans-serif;
 }
