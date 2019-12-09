@@ -3,20 +3,19 @@
 body {
 	background-image: url("../images/message.jpg");
 	background-size: 100%;
-    background-repeat: repeat-y;
+    	background-repeat: repeat-y;
 	font-size: 20px;
-    font-family:'Thasadith', sans-serif;
-}
+   	font-family:'Thasadith', sans-serif;
+	}
 
 .container {
 	display: flex;
   	flex-wrap: wrap;
   	align-content:flex-start;
-	margin-left:14%;
 	opacity: 0.8;
-	padding: 20px;
 	font-size: 20px;
-    	font-family:'Thasadith', sans-serif;}
+    	font-family:'Thasadith', sans-serif;
+	}
 
 header
 h1{
@@ -28,7 +27,8 @@ h1{
 	text-shadow: 12px 10px 12px;
 	text-emphasis-color: rgb(72, 255, 0); 
 	padding-top: 20px;
-}
+	}
+
 header
 h5{
 	margin-left: 14%;
@@ -39,16 +39,19 @@ h5{
 	text-shadow: 12px 10px 12px;
 	text-emphasis-color: rgb(72, 255, 0); 
 	padding-top: 5px;
-}
+	}
+
+div#gifButtonsView{
+	margin-left:14%;
+	align-self: auto;
+	padding-top:0%;
+	}	
+
+
 div#gifButtonsView
-{margin-left:14%;
-align-self: auto;
-padding-top:0%;}	
-div#gifButtonsView
- .btn
-	{
+ .btn	{
 	margin: 3px;
-    background:rgb(248, 62, 223);
+   	background:rgb(248, 62, 223);
 	border-color: rgb(144, 245, 76);
 	border-width: 3px;
 	font-family: 'Segoe UI', Tahoma;
@@ -57,19 +60,19 @@ div#gifButtonsView
 	}	
 
 form
-.form-group
-{	diplay: flex;
+.form-group{
+	diplay: flex;
 	flex-flow: row;	
 	margin-left: 14%;;
-	margin: 14%;
 	font-family: 'Barriecito', cursive;
 	font-weight: bolder;
 	font-size:16pt;
 	color: rgb(63, 8, 114); 	
 	}
+	
 	form
 	.btn {	
-		margin-left: 14%;
+		align-content: flex-start;
 		background:rgb(248, 62, 223);
 		border-color: rgb(144, 245, 76);
 		color: white;
@@ -78,9 +81,11 @@ form
 		font-weight: bolder;
 		font-size: 10pt;
 		}
+
 .flex-container {
   	display: flex;
 	flex-flow: row wrap;
+ 	align-content: flex-start;
 	background-color: rgba(166, 255, 0, 0.301);
 	}
 	
@@ -88,7 +93,7 @@ div#gifsView{
 	display: flex;
  	flex-wrap: wrap;
  	align-content: flex-start;
-	height: 600; 
+	height: 600PX; 
 	margin-left:18%;
 	font-size: 20px;
     	font-family:'Thasadith', sans-serif;
@@ -112,7 +117,7 @@ footer {
 	left: 0;
 	text-align: center;
 	font-size: 12px;
-    font-family:'Thasadith', sans-serif;
+	font-family:'Thasadith', sans-serif;
 	color: blueviolet;
 	font-weight: bolder;
 }
