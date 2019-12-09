@@ -50,8 +50,7 @@ div#gifButtonsView{
 
 div#gifButtonsView
  .btn	{
-	margin: 3px;
-   	background:rgb(248, 62, 223);
+	background:rgb(248, 62, 223);
 	border-color: rgb(144, 245, 76);
 	border-width: 3px;
 	font-family: 'Segoe UI', Tahoma;
@@ -63,7 +62,6 @@ form
 .form-group{
 	diplay: flex;
 	flex-flow: row;	
-	margin-left: 14%;;
 	font-family: 'Barriecito', cursive;
 	font-weight: bolder;
 	font-size:16pt;
