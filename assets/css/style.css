@@ -9,7 +9,9 @@ body {
 }
 
 .container {
-	diplay: inline-block;
+	display: flex;
+  	flex-wrap: wrap;
+  	align-content:flex-start;
 	margin-left:14%;
 	opacity: 0.8;
 	padding: 20px;
@@ -89,7 +91,10 @@ div#gifsView{
     	font-family:'Thasadith', sans-serif;
 }
 
-img {	font-size: 10px;
+img {	  display: flex;
+  flex-wrap: wrap;
+  align-content:flex-start;
+	font-size: 10px;
 	color: rgb(75, 40, 158); 
 	height:135px;
     	mwidth: 160px;
